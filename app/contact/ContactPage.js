@@ -432,7 +432,11 @@ function ContactPage() {
                   </p>
                 </div>
 
-                <div className="h-[200px] w-[70%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center ">
+                <div 
+                    onClick={() => {
+                    window.location.href = "tel:+919488219213";
+                  }}
+                className="h-[200px] w-[70%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center ">
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20e2.png?alt=media&token=ae0a84db-e45d-407e-9380-1bd71cc86a8b"
                     alt="Contact Sales"
@@ -608,7 +612,13 @@ function ContactPage() {
                   </p>
                 </div>
 
-                <div className="h-[200px] w-[70%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center ">
+                <div 
+                
+                   onClick={() => {
+                    window.location.href = "tel:+919488219213";
+                  }}
+
+                className="h-[200px] w-[70%] border-2 border-gray-300 rounded-lg flex flex-col justify-center items-center ">
                   <Image
                     src="https://firebasestorage.googleapis.com/v0/b/zenth-web.appspot.com/o/contact%20e2.png?alt=media&token=ae0a84db-e45d-407e-9380-1bd71cc86a8b"
                     alt="Contact Sales"
